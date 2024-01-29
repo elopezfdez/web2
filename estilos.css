@@ -1,0 +1,80 @@
+.wrapper {
+  width: 640px;
+  margin: auto;
+  border: 1px solid black;
+  text-align: center;
+  padding: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+table {
+  width: 97%;
+  border: 0.5em solid #009;
+  border-collapse: collapse;
+  margin:0 auto;
+}
+
+/*Head*/
+
+thead th {
+  text-transform: uppercase;
+  color: white;
+  background-color: #00f;
+  padding: 0.5em;
+}
+thead>tr:first-of-type>th {
+  background-color: #009;
+  padding: 1em;
+}
+thead tr:last-of-type {
+  border-top: 1px solid #55f;
+}
+thead tr:last-of-type th:nth-child(2) {
+  border-left: 1px solid #55f;
+  border-right: 1px solid #55f;
+}
+/*Body*/
+
+tbody {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+tbody th {
+  padding: 0.4em 1em;
+  text-transform: capitalize;
+  text-align: left;
+  width: 30%;
+  background-color: #00000029;
+}
+tbody td {
+  border-left: 1px solid #a9a9a9;
+  border-right: 1px solid #a9a9a9;
+}
+tbody tr:first-child td, tbody tr:nth-child(4) td {
+  color: #008000;
+  font-weight: bold;
+}
+tbody tr:nth-child(odd) {
+  background-color: #ffffe0;
+}
+tbody tr:nth-child(even) {
+  background-color: #dadbcb;
+}
+tbody tr:hover {
+  background-color: #c7c7e9;
+}
+tbody td:last-of-type {
+  background-color: #fff4;
+}
+
+/*Footer*/
+
+tfoot {
+  background-color: #5ab1e4;
+  text-align: right;
+}
+tfoot th {
+  padding: 2em 0.2em 0.1em 0em;
+}
+/* Hacer que la tabla HTML quede igual que la imágen
+   sin modificar para nada el código HTML */
